@@ -1,6 +1,8 @@
 # Test Automation Project with Cypress and Mochawesome Reporter
 
-## Welcome to the Test Automation Project! This project uses Cypress for end-to-end testing with JavaScript and integrates the cypress-mochawesome-reporter for enhanced reporting.
+### Welcome to the Test Automation Project! This project uses Cypress for end-to-end testing with JavaScript and integrates the cypress-mochawesome-reporter for enhanced reporting.
+
+
 
 ## Prerequisites 
 
