@@ -11,25 +11,25 @@ Node.js (version: v20.9.0)
 
 - Download URL Link for Node js
 
-```bash
-https://nodejs.org/en/download
+ ```bash
+ https://nodejs.org/en/download
 
-```
-npm (Node Package Manager)
+ ```
+ npm (Node Package Manager)
 
 - To verify installed npm version on commandline
 
-```bash
- npm -v
+ ```bash
+  npm -v
 
-```
+ ```
 
 - Download and Install Visual Studio Code
 
-```bash
-https://code.visualstudio.com/download
+ ```bash
+ https://code.visualstudio.com/download
 
-```
+ ```
 
 ## Verify Installation:
 
@@ -101,46 +101,45 @@ Clone this repository to your local machine using the following command:
 
   ```
     
-
 ## Running Tests
 
 ### Run All Tests headless
 
 - To run all tests in headless mode (default):
 
-```bash
+ ```bash
 
-npx cypress run
+ npx cypress run
 
-```
+ ```
    
 ### Run Single Test File
 - To run a specific test file with head:
 
-```bash
-npx cypress run --spec "cypress/e2e/tests/login.cy.js" --browser chrome --headed
+ ```bash
+ npx cypress run --spec "cypress/e2e/tests/login.cy.js" --browser chrome --headed
 
-```
+ ```
 
 ### Run All Tests headed
 
 - To run all tests in head:
 
-```bash
-npx cypress run --headed --browser chrome
+ ```bash
+ npx cypress run --headed --browser chrome
 
-```
+ ```
 
 ## Viewing Reports
 
-After running your tests, reports are generated in the cypress/reports/html directory. To view the reports:
+- After running your tests, reports are generated in the cypress/reports/html directory. To view the reports:
 
-1. Navigate to the Reports Directory
+ 1. Navigate to the Reports Directory
 
-Open the generated HTML report file (e.g., report.html) in your web browser:
+- Open the generated HTML report file (e.g., report.html) in your web browser:
 
-```bash
+ ```bash
 
-start report.html
+ start report.html
 
-```
+ ```
