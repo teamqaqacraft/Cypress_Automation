@@ -33,15 +33,16 @@ https://code.visualstudio.com/download
 
 ## Verify Installation:
 
-    After installing Node.js, open a terminal or command prompt.
-    Run the following commands to verify that Node.js and npm are installed correctly:
+After installing Node.js, open a terminal or command prompt.
+Run the following commands to verify that Node.js and npm are installed correctly:
 
-    ```bash
-    node -v
-    npm -v
+ ```bash
 
-    ```
-    These commands should print out the installed versions of Node.js and npm, respectively.
+ node -v
+ npm -v
+
+ ```
+ These commands should print out the installed versions of Node.js and npm, respectively.
 
 ## Project Structure:
 
@@ -53,45 +54,47 @@ The project is structured as follows:
 
 ## Installation:
 
-    Clone this repository to your local machine using the following command:
-    1. Clone the repository:
+Clone this repository to your local machine using the following command:
+1. Clone the repository:
 
-     ```bash
+   ```bash
 
-     https://github.com/teamqaqacraft/Cypress_Automation.git
+   https://github.com/teamqaqacraft/Cypress_Automation.git
   
-      ```
+   ```
 
-    2. Navigate to the project directory:
+2. Navigate to the project directory:
 
-     - (Navigate to the locally saved project through a command line)
-     - Select the ***Drive*** and select <project-directory> with the name of the directory where the repository was cloned.
-        - Select the drive where the repository was cloned. 
-           *Example*: D drive, E: drive etc.
+   - (Navigate to the locally saved project through a command line)
+   - Select the ***Drive*** and select <project-directory> with the name of the directory where the repository was cloned.
+       - Select the drive where the repository was cloned. 
+         *Example*: D drive, E: drive etc.
 
-        - Select Project-directory:
+       - Select Project-directory:
 
-        ```bash
+   ```bash
 
-        cd  /...../Cypress_Automation
+   cd  /...../Cypress_Automation
 
-        ```
-    3. To Install dependencies:
-    - Once inside the project directory, install the required dependencies by running:
+   ```
+   
+3. To Install dependencies:
+   
+   - Once inside the project directory, install the required dependencies by running:
 
-    ```bash
+  ```bash
 
-    npx install
+  npx install
      
-    ```
+  ```
 
-    4. Install Cypress:
+4. Install Cypress:
 
-    ```bash
+  ```bash
 
-    npm install cypress --save-dev
+  npm install cypress --save-dev
 
-    ```
+  ```
     
 
 ## Running Tests
