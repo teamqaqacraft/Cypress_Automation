@@ -9,13 +9,6 @@ To install Node.js, visit Node.js Official Website and download the latest versi
 
 Node.js (version: v20.9.0)
 
-To verify installed Node version on commandline
-
-```bash
- node -v
-
-```
-
 Download URL Link for Node js
 
 ```bash
