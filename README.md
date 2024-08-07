@@ -85,7 +85,7 @@ Clone this repository to your local machine using the following command:
    
 3. To Install dependencies:
    
-   - Once inside the project directory, install the required dependencies by running:
+- Once inside the project directory, install the required dependencies by running:
 
   ```bash
 
