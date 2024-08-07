@@ -87,11 +87,11 @@ Clone this repository to your local machine using the following command:
    
 - Once inside the project directory, install the required dependencies by running:
 
-  ```bash
+```bash
 
-  npx install
+npx install
 
-  ```
+```
 
 4. Install Cypress:
 
