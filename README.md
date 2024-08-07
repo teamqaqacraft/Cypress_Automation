@@ -58,6 +58,8 @@ The project is structured as follows:
 
      ```bash
 
+     https://github.com/teamqaqacraft/Cypress_Automation.git
+  
       ```
 
     2. Navigate to the project directory:
