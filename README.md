@@ -15,7 +15,7 @@ Node.js (version: v20.9.0)
  https://nodejs.org/en/download
 
  ```
- npm (Node Package Manager)
+  npm (Node Package Manager)
 
 - To verify installed npm version on commandline
 
