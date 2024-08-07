@@ -89,7 +89,7 @@ Clone this repository to your local machine using the following command:
 
 ```bash
 
-npx install
+npm install
 
 ```
 
@@ -140,6 +140,6 @@ npx install
 
  ```bash
 
- start report.html
+ start cypress\reports\html\report.html
 
  ```
