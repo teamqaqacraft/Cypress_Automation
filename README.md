@@ -2,9 +2,9 @@
 
 ## Welcome to the Test Automation Project! This project uses Cypress for end-to-end testing with JavaScript and integrates the cypress-mochawesome-reporter for enhanced reporting.
 
-# Prerequisites 
+## Prerequisites 
 
-Before running the automation scripts, ensure you have the following installed:
+### Before running the automation scripts, ensure you have the following installed:
 To install Node.js, visit Node.js Official Website and download the latest version appropriate for your operating system. Follow the installation instructions provided on the website.
 
 Node.js (version: v20.9.0)
@@ -31,7 +31,7 @@ https://code.visualstudio.com/download
 
 ```
 
-# Verify Installation:
+## Verify Installation:
 
     After installing Node.js, open a terminal or command prompt.
     Run the following commands to verify that Node.js and npm are installed correctly:
@@ -43,15 +43,15 @@ https://code.visualstudio.com/download
     ```
     These commands should print out the installed versions of Node.js and npm, respectively.
 
-# Project Structure:
+## Project Structure:
 
 The project is structured as follows:
 
-    tests/: Contains the JavaScript files for the automated tests.
-    package.json: Defines project dependencies.
-    cypress.config.js: JavaScript configuration file.
+  - `tests/`: Contains the JavaScript files for the automated tests.
+  - `package.json`: Defines project dependencies.
+  - `playwright.config.ts`: JavaScript configuration file.
 
-# Installation:
+## Installation:
 
     Clone this repository to your local machine using the following command:
     1. Clone the repository:
@@ -62,11 +62,12 @@ The project is structured as follows:
 
     2. Navigate to the project directory:
 
-    (Navigate to the locally saved project through a command line)
-    Select the Drive and select with the name of the directory where the repository was cloned.
-        Select the drive where the repository was cloned. Example: D drive, E: drive etc.
+     - (Navigate to the locally saved project through a command line)
+     - Select the ***Drive*** and select <project-directory> with the name of the directory where the repository was cloned.
+        - Select the drive where the repository was cloned. 
+           *Example*: D drive, E: drive etc.
 
-        Select Project-directory:
+        - Select Project-directory:
 
         ```bash
 
@@ -74,7 +75,7 @@ The project is structured as follows:
 
         ```
     3. To Install dependencies:
-    Once inside the project directory, install the required dependencies by running:
+    - Once inside the project directory, install the required dependencies by running:
 
     ```bash
 
@@ -93,7 +94,7 @@ The project is structured as follows:
 
 ## Running Tests
 
-# Run All Tests headless
+### Run All Tests headless
 
 To run all tests in headless mode (default):
 
@@ -103,7 +104,7 @@ npx cypress run
 
 ```
    
-# Run Single Test File
+### Run Single Test File
 To run a specific test file with head:
 
 ```bash
@@ -111,7 +112,7 @@ npx cypress run --spec "cypress/e2e/tests/login.cy.js" --browser chrome --headed
 
 ```
 
-# Run All Tests headed
+### Run All Tests headed
 
 To run all tests in head:
 
