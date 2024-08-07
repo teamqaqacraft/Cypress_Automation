@@ -9,7 +9,7 @@ To install Node.js, visit Node.js Official Website and download the latest versi
 
 Node.js (version: v20.9.0)
 
-Download URL Link for Node js
+- Download URL Link for Node js
 
 ```bash
 https://nodejs.org/en/download
@@ -17,14 +17,14 @@ https://nodejs.org/en/download
 ```
 npm (Node Package Manager)
 
-To verify installed npm version on commandline
+- To verify installed npm version on commandline
 
 ```bash
  npm -v
 
 ```
 
-Download and Install Visual Studio Code
+- Download and Install Visual Studio Code
 
 ```bash
 https://code.visualstudio.com/download
@@ -39,6 +39,11 @@ Run the following commands to verify that Node.js and npm are installed correctl
  ```bash
 
  node -v
+
+ ```
+
+ ```bash
+
  npm -v
 
  ```
@@ -65,12 +70,12 @@ Clone this repository to your local machine using the following command:
 
 2. Navigate to the project directory:
 
-   - (Navigate to the locally saved project through a command line)
-   - Select the ***Drive*** and select <project-directory> with the name of the directory where the repository was cloned.
-       - Select the drive where the repository was cloned. 
-         *Example*: D drive, E: drive etc.
+- (Navigate to the locally saved project through a command line)
+- Select the ***Drive*** and select <project-directory> with the name of the directory where the repository was cloned.
+  - Select the drive where the repository was cloned. 
+    *Example* : D drive, E: drive etc.
 
-       - Select Project-directory:
+  - Select Project-directory:
 
    ```bash
 
@@ -85,7 +90,7 @@ Clone this repository to your local machine using the following command:
   ```bash
 
   npx install
-     
+
   ```
 
 4. Install Cypress:
@@ -101,7 +106,7 @@ Clone this repository to your local machine using the following command:
 
 ### Run All Tests headless
 
-To run all tests in headless mode (default):
+- To run all tests in headless mode (default):
 
 ```bash
 
@@ -110,7 +115,7 @@ npx cypress run
 ```
    
 ### Run Single Test File
-To run a specific test file with head:
+- To run a specific test file with head:
 
 ```bash
 npx cypress run --spec "cypress/e2e/tests/login.cy.js" --browser chrome --headed
@@ -119,7 +124,7 @@ npx cypress run --spec "cypress/e2e/tests/login.cy.js" --browser chrome --headed
 
 ### Run All Tests headed
 
-To run all tests in head:
+- To run all tests in head:
 
 ```bash
 npx cypress run --headed --browser chrome
